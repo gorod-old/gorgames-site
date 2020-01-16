@@ -1,0 +1,465 @@
+
+@media(min-width: 1025px) {
+
+    .slider-item__image{  
+        img{  
+            top: 16vh;          
+            max-height: 400px;                     
+        }   
+    }
+
+    .slider-arrows{ 
+        top: 8vh;     
+        height: 3vh;
+        max-height: 30px;
+    }  
+    
+    .slider-arrows__left{
+        right: calc(8vw + 6vh);
+    }
+
+    .header__aside{
+        width: 14vh;
+    }
+
+    .header__search{
+        a{
+            height: 6vh;
+            img{
+                height: 2.2vh;
+                width: 2.2vh;
+                padding: 1.4vh;
+            }
+        }
+    }
+
+    .header__location{
+        font-size: 1.6vh;
+        a{
+            img{
+                width: 1.1vh;
+                height: 1.6vh;               
+                padding: 0;
+                top: 0.2vh;
+            }
+        }  
+    }
+}
+
+// iPad Pro
+@media (orientation: portrait) and (max-width: 1024px) and (min-height: 1366px)  {
+
+    .slider-item__info{
+        bottom: 8vh;
+    }
+
+    .slider-item__info-title{ 
+        margin-bottom: 64px;
+    }
+
+    .slider-arrows{
+        top: 80px;
+        height: 30px;
+    }
+
+    .slider-arrows__left{
+        right: calc(8vw + 60px);
+    }
+
+    .logo{  
+        img{
+            max-height: 130px; 
+        }   
+    }
+
+    .slider-item__image{  
+        img{            
+            max-height: 300px;                     
+        }   
+    }
+
+    .slider-item__info-link{
+        img{
+            height: 30px;
+            bottom: 28px;
+        }
+    } 
+
+    .menu{
+        max-height: 700px;
+        li{
+            max-height: 180px;
+        }
+        a{     
+            img{ 
+                padding-top: 10px;           
+                height: 54%;
+            }
+            span{
+                font-size: 20px;  
+                padding-top: 20px;    
+            }
+        }
+    }
+
+    .header__search{
+        a{
+            height: 80px;
+            img{
+                height: 30px;
+                width: 30px;
+                padding: 15px;
+            }
+        }
+    }
+
+    .header__location{
+        font-size: 22px;
+        a{
+            img{
+                width: 14px;
+                height: 20px;               
+                padding: 0;
+            }
+        }  
+    }
+
+    .about-main{
+        font-size: 20px;
+    }
+
+    .button{
+        min-width: 110px;
+        padding: 15px 25px;
+        margin: 12px;
+    }
+}
+
+// iPad
+@media (orientation: portrait) and (max-width: 768px) and (min-height: 1024px) and (max-height: 1365px) {
+    
+    .logo{  
+        img{
+            max-height: 120px; 
+        }   
+    } 
+    
+    .slider-item__image{  
+        img{            
+            max-height: 240px;                     
+        }   
+    }
+
+    .slider-item__info{
+        bottom: 8vh;
+    }
+
+    .slider-item__info-title{ 
+        margin-bottom: 44px;
+    }
+
+    .slider-arrows{
+        height: 24px;
+    }
+
+    .slider-arrows__left{
+        right: calc(8vw + 50px);
+    }
+
+    .slider-item__info-link{
+        img{
+            height: 24px;
+            bottom: 18px;
+        }
+    } 
+
+    .header__search{
+        a{
+            height: 60px;
+            img{
+                height: 25px;
+                width: 25px;
+                padding: 12px;
+            }
+        }
+    }
+
+    .header__location{
+        font-size: 18px;
+        a{
+            img{
+                width: 14px;
+                height: 20px;               
+                padding: 0;
+            }
+        }  
+    }
+
+    .about-main{
+        font-size: 20px;
+    }
+
+    .button{
+        min-width: 110px;
+        padding: 15px 25px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) and (min-height: 571px) and (max-height: 1023px) {
+    
+
+    .slider-item__image{  
+        img{            
+            top: 14vh;    
+            max-height: 220px;             
+        }   
+    }
+
+    .slider-arrows{
+        top: 6vh;
+        height: 20px;
+    }
+
+    .slider-arrows__left{
+        right: calc(8vw + 45px);
+    }
+
+    .slider-item__info-link{
+        img{
+            height: 20px;
+            bottom: 14px;
+        }
+    } 
+}
+
+// Phones portrait orientation
+@media (max-width: 640px) {
+
+    .slider-item__info{
+        right: 6vw;
+        left: 26vw;    
+    }
+
+    .slider-item__image{  
+        img{            
+            right: 6vw;                   
+        }   
+    }
+
+    .slider-item__info-suptitle{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .slider-item__info-suptext{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .slider-item__info-title{ 
+        font-size: 44px;
+    }
+    
+    .slider-item__info-text{    
+        font-size: 30px;
+        margin-right: 36px;
+    }
+
+    .slider-item__info-link{
+        img{
+            height: 16px;
+            bottom: 8px;
+            right: 6px;
+        }
+    }
+
+    .logo{
+        img{
+            height: 16vh; 
+            max-height: 75px;      
+        }    
+    }
+
+}
+
+@media (max-width: 640px) and (min-height: 571px) {
+
+    .slider-arrows{
+        top: 25px;
+        height: 16px;
+    }  
+    
+    .slider-arrows__left{
+        right: calc(8vw + 35px);
+    }
+}
+
+@media (max-width: 640px) and (min-height: 641px) {
+
+    .slider-arrows{
+        top: 35px;
+        height: 16px;
+     }
+
+    .slider-item__image{  
+        img{   
+            top: 14vh;                           
+        }   
+    }
+}
+
+@media (max-width: 640px) and (min-height: 668px) {
+
+    .slider-arrows{
+        top: 35px;
+    }
+
+    .slider-item__image{  
+        img{   
+            top: 14vh;                          
+        }   
+    }
+}
+
+@media (max-width: 640px) and (min-height: 732px) {
+
+    .slider-arrows{
+        top: 40px;
+    }
+
+    .slider-item__image{  
+        img{            
+            top: 18vh;
+            height: 34vh;                      
+        }   
+    }
+
+    .logo{ 
+        img{
+            max-height: 85px; 
+        }   
+    }
+}
+
+//iPhone 5/SE
+@media (max-width: 320px) {
+
+    .slider-arrows{
+        top: 24px;
+    }
+
+    .slider-item__info-suptitle{
+        font-size: 13px;
+    }
+    
+    .slider-item__info-suptext{
+        font-size: 13px;
+    }
+
+    .slider-item__info-title{ 
+        font-size: 38px;
+    }
+    
+    .slider-item__info-text{    
+        font-size: 24px;
+    }
+
+    .slider-item__info-link{
+        img{
+            bottom: 6px;
+        }
+    } 
+    
+    .slider-arrows{
+        height: 16px;
+     }
+}
+
+// Phones landscape orientation
+@media (orientation: landscape) and (max-width: 1080px) and (max-height: 570px) {
+
+    .slider-item__image{       
+        img{            
+            top: 14vh;
+            right: 6vh;
+            height: 38vh;                   
+        }   
+    }
+
+    .slider-arrows{
+        top: 6vh;
+        right: 8vh;
+        height: 16px;
+    }
+
+    .slider-arrows__left{
+        right: calc(8vh + 36px);
+    }
+
+    .slider-item__info{
+        bottom: 5vh;
+        left: 24vh;
+        right: 6vh;
+    }
+
+    .slider-item__info-suptitle{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+    
+    .slider-item__info-suptext{
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 5px;
+    }
+
+    .slider-item__info-title{ 
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    .slider-item__info-text{    
+        font-size: 24px;
+        margin-right: 36px;
+    }
+
+    .slider-item__info-link{
+        img{
+            height: 16px;
+            bottom: 6px;
+        }
+    } 
+
+    .header__search {
+        display: none;
+    }
+
+    .logo {
+        img{
+            height: 18vh;
+        }
+    }
+
+    .menu {
+        height: 76vh;
+        min-height: 200px;
+        top: 22%;
+        li{
+            height: 19vh;
+            min-height: 56px;
+        }  
+        a{
+            span{
+                font-size: 10px;
+                padding-top: 4px;
+            }
+        } 
+    }
+
+    .page-info{
+        top: 5%;
+        transform: translateY(0);
+    }
+}
