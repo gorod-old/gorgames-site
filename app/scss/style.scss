@@ -24,6 +24,15 @@
     background-repeat: no-repeat;    
 }
 
+.header-game{
+    height: 100vh;     
+    background-image: url(../img/gorgames-header-dark-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;    
+}
+
 .header-mask{
     height: 100%;
     background-color: rgba($color: #000000, $alpha: 0.5);
@@ -32,8 +41,7 @@
 
 
 
-.header__slider{
-    
+.header__slider{    
     bottom: 5px;
     &-item{  
         height: 100vh;     
@@ -51,7 +59,7 @@
     bottom: 5px;
     &-item{  
         height: 100vh;     
-        background-image: url(../img/bg_products.jpg);
+        background-image: url(../img/gorgames-header-dark-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -59,7 +67,11 @@
     }
 }
 
-.slider-item__info{
+.slider-item{
+    //z-index: 5;
+}
+
+.slider-item__info{    
     position: absolute;
     right: 8vw;
     bottom: 10vh;
@@ -105,16 +117,16 @@
 
 .slider-item__info-link{
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 105%;
     bottom: 0;
-    right: 0;
+    right: -20px;
     img{
         position: absolute;
         height: 3vh;
         max-height: 30px;
         bottom: 1.6vh;
-        right: 2px;
+        right: 22px;
     }
 }
 
@@ -159,7 +171,7 @@
     position: absolute;   
     top: 0;
     left: 0;
-    z-index: 4;
+    //z-index: 4;
     overflow: hidden;
 }
 
@@ -276,6 +288,24 @@
     }
 }
 
+.game-img{
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 0 auto;  
+    height: 22vh;
+    width: 22vh;
+    background-color: rgba($color: #ffffff, $alpha: 0.2);
+    border-radius: 20px;
+    border: thick double #32a1ce;
+    img{
+        position: relative;
+        height: 70%;
+        top: 15%;
+        left: 15%;
+    }
+}
+
 .about-main{
     position: relative;
     right: 0;
@@ -285,7 +315,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 300;    
     p{
         right: 0;
         left: 0;
@@ -295,6 +325,7 @@
         margin: 0 auto 4vh;
         padding: 10px 15px;
         background-color: rgba($color: #0e0404, $alpha: 0.5);
+        border: 10px solid rgba($color: #ffffff, $alpha: 0.2);
         border-radius: 10px;
     }
     h1{
@@ -350,14 +381,35 @@
     border: 2px solid #00a2fe;
     background: #00a2fe;
     color: #fff;
-    box-shadow: 0 14px 10px -10px rgba(0,162,254,0.3);
+    box-shadow: 0 14px 10px -10px rgba(0,162,254,0.4);
 }
 
 .button--purple {
     border: 2px solid #733df9;
     background: #733df9;
     color: #fff;
-    box-shadow: 0 14px 10px -10px rgba(115,61,249,0.3);
+    box-shadow: 0 14px 10px -10px rgba(115,61,249,0.4);
+}
+
+.button--play {
+    margin-top: 20px;
+    border: 2px solid #19e219;
+    background: #19e219;
+    color: #fff;
+    box-shadow: 0 14px 10px -10px rgba(83, 249, 61, 0.4);
+}
+
+.button--link {
+    padding: 8px 12px 4px;
+    min-width: 0;
+    min-height: 0;
+    border: 2px solid #8d8f91;
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 14px 10px -10px rgba(100, 100, 100, 0.4);
+    img{
+        width: 40px;
+    }
 }
 
 .button--fade {
@@ -365,7 +417,17 @@
     transition: opacity 0.3s 1s;
 }
 
+.bt-block{
+    position: relative;
+    right: 0;
+    left: 0;
+    margin: 0 auto 20px; 
+    text-align: center;
+}
 
+.bt-block--links{
+    margin: 0 auto 20px; 
+}
 
 
 

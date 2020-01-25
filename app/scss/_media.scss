@@ -270,7 +270,7 @@
         img{
             height: 16px;
             bottom: 8px;
-            right: 6px;
+            right: 26px;
         }
     }
 
@@ -426,6 +426,7 @@
     }
 
     .slider-item__info-link{
+        width: 103%;
         img{
             height: 16px;
             bottom: 6px;
@@ -439,6 +440,7 @@
     .logo {
         img{
             height: 18vh;
+            width: auto;
         }
     }
 
